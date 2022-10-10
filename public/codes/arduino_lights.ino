@@ -1,0 +1,68 @@
+#include <FastLED.h>
+
+//Number of LEDS on your device.
+const int NUM_LEDS = 100;
+//Microphone port.
+const int D1 = 3;
+//Arduino output and LED input port.
+const int LED = 2;
+//To store old time.
+long oldMilles;
+// time interval
+long interval = 500;
+//maximum time interval
+long maxInterval= 10000;
+//used of reset.
+bool led = false;
+CRGB leds[NUM_LEDS];
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(D1, INPUT);
+  FastLED.addLeds<WS2812,LED, GRB>(leds, NUM_LEDS);
+  Serial.begin(9600);
+  
+}
+
+void loop() {
+  int action = digitalRead(D1);
+  if(action == 1){
+     long currentMillis = millis();
+    
+     if(oldMilles){
+      if(currentMillis - oldMilles > interval && currentMillis - oldMilles < maxInterval){
+        if(led){
+          //if lights are on turns it off.
+         for(int i =0; i<=NUM_LEDS ;i++){
+          leds[i] = CRGB(0,0,0);
+         }
+         FastLED.show();
+         //digitalWrite(LED, LOW);
+         led = false;
+      
+        }
+        else{
+          int R= random(0,255);
+          int G= random(0,255);
+          int B= random(0,255);
+          //turns lights on with random colors.
+          for(int i =0; i<=NUM_LEDS ;i++){
+          leds[i] = CRGB(R,G,B);
+         }
+         FastLED.show();
+          //digitalWrite(LED, HIGH);
+          led = true;
+        }
+      }
+        oldMilles=0; 
+     }
+     else{
+      oldMilles = currentMillis;
+     }
+  }
+  
+
+
+
+
+
+}
