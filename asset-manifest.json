@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lights/static/css/main.cab760a4.css",
-    "main.js": "/lights/static/js/main.ee7f89a5.js",
-    "static/js/787.d55fba9e.chunk.js": "/lights/static/js/787.d55fba9e.chunk.js",
-    "index.html": "/lights/index.html",
-    "main.cab760a4.css.map": "/lights/static/css/main.cab760a4.css.map",
-    "main.ee7f89a5.js.map": "/lights/static/js/main.ee7f89a5.js.map",
-    "787.d55fba9e.chunk.js.map": "/lights/static/js/787.d55fba9e.chunk.js.map"
+    "main.css": "/arduino_lights/static/css/main.cab760a4.css",
+    "main.js": "/arduino_lights/static/js/main.08ce4a92.js",
+    "static/js/787.d55fba9e.chunk.js": "/arduino_lights/static/js/787.d55fba9e.chunk.js",
+    "index.html": "/arduino_lights/index.html",
+    "main.cab760a4.css.map": "/arduino_lights/static/css/main.cab760a4.css.map",
+    "main.08ce4a92.js.map": "/arduino_lights/static/js/main.08ce4a92.js.map",
+    "787.d55fba9e.chunk.js.map": "/arduino_lights/static/js/787.d55fba9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cab760a4.css",
-    "static/js/main.ee7f89a5.js"
+    "static/js/main.08ce4a92.js"
   ]
 }
