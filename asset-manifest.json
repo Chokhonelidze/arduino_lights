@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/arduino_lights/static/css/main.cab760a4.css",
-    "main.js": "/arduino_lights/static/js/main.08ce4a92.js",
+    "main.js": "/arduino_lights/static/js/main.facd0e77.js",
     "static/js/787.d55fba9e.chunk.js": "/arduino_lights/static/js/787.d55fba9e.chunk.js",
     "index.html": "/arduino_lights/index.html",
     "main.cab760a4.css.map": "/arduino_lights/static/css/main.cab760a4.css.map",
-    "main.08ce4a92.js.map": "/arduino_lights/static/js/main.08ce4a92.js.map",
+    "main.facd0e77.js.map": "/arduino_lights/static/js/main.facd0e77.js.map",
     "787.d55fba9e.chunk.js.map": "/arduino_lights/static/js/787.d55fba9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cab760a4.css",
-    "static/js/main.08ce4a92.js"
+    "static/js/main.facd0e77.js"
   ]
 }
