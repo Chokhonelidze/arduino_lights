@@ -4,7 +4,7 @@ export default function Main() {
     <div className="Main">
       <div className="video">
         <video width="200" height="240" controls>
-          <source src='/videos/lightsDemo2.mp4' type="video/mp4" ></source>
+          <source src='lights/videos/lightsDemo2.mp4' type="video/mp4" ></source>
         </video>
         
       </div>
