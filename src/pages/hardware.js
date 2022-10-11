@@ -9,7 +9,7 @@ export default function Hardware() {
         <img
           alt="arduino1"
           className="big-image"
-          src="lights/images/connection1.png"
+          src="/arduino_lights/images/connection1.png"
         ></img>
       </dl>
       <dl className="longtext">
@@ -24,7 +24,7 @@ export default function Hardware() {
         <img
           alt="arduino2"
           className="big-image"
-          src="lights/images/connection2.png"
+          src="/arduino_lights/images/connection2.png"
         ></img>
       </dl>
       <dl className="longtext">
