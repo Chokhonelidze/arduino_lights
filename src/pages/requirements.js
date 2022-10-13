@@ -31,7 +31,7 @@ export default function Requirements() {
   ];
    data = data.map((input,index)=>{
     return <fieldset key={index+'fs'}>
-        <img src={input?.img?.src} alt={input?.img?.alt}  className='mid-images' />
+        <img src={input?.img?.src} alt={input?.img?.alt}  className='mid-images' target="_blank" />
         <legend> 
             {input?.text?.url?<a className='link' href={input.text.url}>{input.text.label}</a>:<>{input.text.label}</>}
         </legend>
