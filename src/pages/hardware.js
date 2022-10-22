@@ -13,8 +13,8 @@ export default function Hardware() {
         ></img>
       </dl>
       <dl className="longtext">
-        Connect LED's positive and negative lines to the power supply, Connect
-        Arduino to LED's three lines + - and digital input.
+        Connect LED's positive and negative lines to the power supply, Connect <br></br>
+        Arduino to LED's three lines +(red) to  Vinn , -(white) to gnd, and digital (green)  to D2 output .
       </dl>
       <div className="mt-5"></div>
       <dl>
@@ -33,7 +33,7 @@ export default function Hardware() {
         the #3 port of the Arduino board.
       </dl>
       <dl className="text-danger longtext">
-      Do not connect Arduino directly to the power supply user LED's output power lines instead.
+      Do not connect Arduino directly to the power supply, use LED's output power lines instead.
       </dl>
     </div>
   );
